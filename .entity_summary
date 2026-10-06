@@ -1,0 +1,3 @@
+- Firmen (firmen): firmenname[string/text], strasse[string/text], hausnummer[string/text], postleitzahl[string/text], ort[string/text], telefon[string/tel], email[string/email], website[string/url], bemerkungen[string/textarea]
+- Ansprechpartner (ansprechpartner): firma[applookup/select], vorname[string/text], nachname[string/text], position[string/text], telefon[string/tel], mobil[string/tel], email[string/email], bemerkungen[string/textarea]
+  → firma links to app_id 6ac4ffd3537dbc97ceb2db87

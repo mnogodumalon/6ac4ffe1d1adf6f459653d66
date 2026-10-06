@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "firmen",
+      "app_id": "6ac4ffd3537dbc97ceb2db87",
+      "path": "/rest/apps/6ac4ffd3537dbc97ceb2db87/records",
+      "allowed_fields": [
+        "firmenname",
+        "strasse",
+        "hausnummer",
+        "postleitzahl",
+        "ort",
+        "telefon",
+        "email",
+        "website",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Firmen — Formular"
+    },
+    {
+      "entity": "ansprechpartner",
+      "app_id": "6ac4ffd7e150bc77fa35cc66",
+      "path": "/rest/apps/6ac4ffd7e150bc77fa35cc66/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "position",
+        "telefon",
+        "mobil",
+        "email",
+        "bemerkungen"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Ansprechpartner — Formular"
+    }
+  ]
+}
